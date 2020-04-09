@@ -84,11 +84,6 @@
       <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/src/Paint.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/src/Rectangle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/src/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PentagonGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RotationBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SinglePlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Othello/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Othello/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Othello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Othello/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Othello/out/production/Othello/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Othello/out/production/Othello/Main.class" afterDir="false" />
@@ -97,6 +92,7 @@
       <change beforePath="$PROJECT_DIR$/../Othello/src/OthelloGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Othello/src/OthelloGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Othello/src/SinglePlayerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Othello/src/SinglePlayerGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pentago/src/PentagoGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pentago/src/PentagoGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2565">
-              <caret line="171" selection-start-line="171" selection-end-line="171" />
+            <state relative-caret-position="580">
+              <caret line="230" selection-start-line="230" selection-end-line="230" />
             </state>
           </provider>
         </entry>
@@ -193,6 +189,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -221,12 +218,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586420751942</updated>
-      <workItem from="1586420753242" duration="146000" />
+      <workItem from="1586420753242" duration="211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146000" />
+    <option name="totallyTimeSpent" value="211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -287,8 +284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="171" selection-start-line="171" selection-end-line="171" />
+        <state relative-caret-position="580">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
         </state>
       </provider>
     </entry>

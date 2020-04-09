@@ -170,4 +170,63 @@ public class Board extends PentagonGame {
         checkEndGame();
     }
 
+    public boolean checkInColumn() {
+        String nutColorCheck;
+        for (int k = 0; k < 2; k++) {
+            if (k == 0) nutColorCheck = nutColor;
+            else nutColorCheck = nutColor2;
+            for (int i = 0; i < 6; i++) {
+                if ((map[0][i].equals(nutColorCheck) && map[1][i].equals(nutColorCheck) && map[2][i].equals(nutColorCheck) && map[3][i].equals(nutColorCheck) && map[4][i].equals(nutColorCheck)) ||
+                        (map[1][i].equals(nutColorCheck) && map[2][i].equals(nutColorCheck) && map[3][i].equals(nutColorCheck) && map[4][i].equals(nutColorCheck) && map[5][i].equals(nutColorCheck))) {
+                    if (k == 0) winner1 = nutColorCheck;
+                    if (k == 1) winner2 = nutColorCheck;
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public boolean checkInAngle() {
+        String nutColorCheck;
+        for (int k = 0; k < 2; k++) {
+            if (k == 0) nutColorCheck = nutColor;
+            else nutColorCheck = nutColor2;
+            if ((map[0][0].equals(nutColorCheck) && map[1][1].equals(nutColorCheck) && map[2][2].equals(nutColorCheck) && map[3][3].equals(nutColorCheck) && map[4][4].equals(nutColorCheck)) ||
+                    (map[1][1].equals(nutColorCheck) && map[2][2].equals(nutColorCheck) && map[3][3].equals(nutColorCheck) && map[4][4].equals(nutColorCheck) && map[5][5].equals(nutColorCheck))) {
+                if (k == 0) winner1 = nutColorCheck;
+                if (k == 1) winner2 = nutColorCheck;
+                return true;
+            }
+        }
+        for (int k = 0; k < 2; k++) {
+            if (k == 0) nutColorCheck = nutColor;
+            else nutColorCheck = nutColor2;
+            if ((map[0][5].equals(nutColorCheck) && map[1][4].equals(nutColorCheck) && map[2][3].equals(nutColorCheck) && map[3][2].equals(nutColorCheck) && map[4][1].equals(nutColorCheck)) ||
+                    (map[1][4].equals(nutColorCheck) && map[2][3].equals(nutColorCheck) && map[3][2].equals(nutColorCheck) && map[4][1].equals(nutColorCheck) && map[5][0].equals(nutColorCheck))) {
+                if (k == 0) winner1 = nutColorCheck;
+                if (k == 1) winner2 = nutColorCheck;
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean checkInRow() {
+        String nutColorCheck;
+        for (int k = 0; k < 2; k++) {
+            if (k == 0) nutColorCheck = nutColor;
+            else nutColorCheck = nutColor2;
+            for (int i = 0; i < 6; i++) {
+                if ((map[i][0].equals(nutColorCheck) && map[i][1].equals(nutColorCheck) && map[i][2].equals(nutColorCheck) && map[i][3].equals(nutColorCheck) && map[i][4].equals(nutColorCheck)) ||
+                        (map[i][1].equals(nutColorCheck) && map[i][2].equals(nutColorCheck) && map[i][3].equals(nutColorCheck) && map[i][4].equals(nutColorCheck) && map[i][5].equals(nutColorCheck))) {
+                    if (k == 0) winner1 = nutColorCheck;
+                    if (k == 1) winner2 = nutColorCheck;
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
