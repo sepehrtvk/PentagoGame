@@ -51,5 +51,32 @@ public class PentagonGame {
         System.out.println();
     }
 
+    public void showGuide() {
+        System.out.println(ANSI_BLUE + "                          Guide" + ANSI_RESET);
+        System.out.println(ANSI_BLUE + "                       \uD83D\uDD38 1 2 3 \uD83D\uDD38" + ANSI_RESET);
+        System.out.println(ANSI_BLUE + "                       \uD83D\uDD38 4 5 6 \uD83D\uDD38" + ANSI_RESET);
+        System.out.println(ANSI_BLUE + "                       \uD83D\uDD38 7 8 9 \uD83D\uDD38" + ANSI_RESET);
+        System.out.println();
+    }
+
+
+    public void displayWinner() {
+        System.out.println();
+        if ((winner1.equals(" ") && winner2.equals(" ")) || (winner1.equals("\u26ab") && winner2.equals("\uD83D\uDD34️")) || (winner2.equals("\u26ab") && winner1.equals("\uD83D\uDD34️"))) {
+            System.out.println("              \uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B");
+            System.out.println(ANSI_PURPLE + "               ! ! The game is a draw ! !" + ANSI_RESET);
+            System.out.println("              \uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A");
+        }
+        if (winner1.equals("\u26ab") || winner2.equals("\u26ab")) {
+            System.out.println("              \uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B");
+            System.out.println(ANSI_PURPLE + "               ! The Winner is BLACK Player !" + ANSI_RESET);
+            System.out.println("              \uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A");
+        }
+        if (winner1.equals("\uD83D\uDD34️") || winner2.equals("\uD83D\uDD34️")) {
+            System.out.println("              \uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B\uD83D\uDD3B");
+            System.out.println(ANSI_PURPLE + "               ! The Winner is RED Player !" + ANSI_RESET);
+            System.out.println("              \uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A");
+        }
+    }
 
 }
