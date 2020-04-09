@@ -229,4 +229,17 @@ public class Board extends PentagonGame {
         return false;
     }
 
+
+    public void checkEndGame() {
+        if (checkInAngle() || checkInColumn() || checkInRow()) {
+            endGame = true;
+        }
+        int count = 0;
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 6; j++) {
+                if (map[i][j].equals("\u26ab") || map[i][j].equals("\uD83D\uDD34️")) count++;
+            }
+        }
+        if (count == 36) endGame = true;
+    }
 }
