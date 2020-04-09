@@ -30,13 +30,21 @@ public class SinglePlayer extends RotationBoard {
             int boardNumber;
             int blockNumber;
             while (true) {
-                //get input of board number.
-                System.out.println("Player " + getNutColor() + " Enter Board Number :");
-                boardNumber = scanner.nextInt();
+                while (true) {
+                    //get input of board number.
+                    System.out.println("Player " + getNutColor() + " Enter Board Number :");
+                    boardNumber = scanner.nextInt();
+                    if (boardNumber > 0 && boardNumber < 5) break;
+                    System.out.println("! wrong input choose a number between 1 and 4 !");
+                }
 
-                //get input of the block number.
-                System.out.println("Choose one Block on Board Number " + boardNumber + " :");
-                blockNumber = scanner.nextInt();
+                while (true) {
+                    //get input of the block number.
+                    System.out.println("Choose one Block on Board Number " + boardNumber + " :");
+                    blockNumber = scanner.nextInt();
+                    if (blockNumber > 0 && blockNumber < 10) break;
+                    else System.out.println("! Wrong input choose a number between 1 and 9 !");
+                }
                 //check the selected block is empty or not.
                 if (isEmpty(boardNumber, blockNumber)) break;
                 else {
@@ -51,13 +59,24 @@ public class SinglePlayer extends RotationBoard {
             //check end of the game.
             if (endGame) break;
 
-            //get input the board want to rotate.
-            System.out.println("Choose which board you want to rotate : ");
-            int bn = scanner.nextInt();
+            int bn;
+            while (true) {
+                //get input the board want to rotate.
+                System.out.println("Choose which board you want to rotate : ");
+                bn = scanner.nextInt();
+                if (bn > 0 && bn < 5) break;
+                else System.out.println("! Wrong input choose another board !");
+            }
 
-            //choose rotation mode.
-            System.out.println("Choose rotate mode :  1) Clock Wise ⟳\n                      2) Anti-Clock Wise ⟲");
-            int rotateMode = scanner.nextInt();
+            int rotateMode;
+            while (true) {
+                //choose rotation mode.
+                System.out.println("Choose rotate mode :  1) Clock Wise ⟳\n                      2) Anti-Clock Wise ⟲");
+                rotateMode = scanner.nextInt();
+                if (rotateMode == 1 || rotateMode == 2) break;
+                else System.out.println("! Wrong input choose another rotate mode !");
+            }
+
             if (rotateMode == 1) rotateClockWise(bn);
             if ((rotateMode == 2)) rotateAntiClockWise(bn);
 

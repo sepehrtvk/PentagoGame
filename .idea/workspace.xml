@@ -2,101 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd34cb2a-eb48-45ee-a27d-408305b190fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Pentago/Pentago.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/Circle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/Main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/Paint.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/Rectangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/Triangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/deprecated-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/index-files/index-10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/index-files/index-11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/index-files/index-12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/index-files/index-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/index-files/index-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/index-files/index-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/index-files/index-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/member-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/package-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/external/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/jquery-ui.structure.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/jquery-ui.structure.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/jszip-utils/dist/jszip-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/jszip/dist/jszip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script-dir/jszip/dist/jszip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/type-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/JavaDoc/type-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/out/production/paint/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/out/production/paint/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/out/production/paint/Paint.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/out/production/paint/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/out/production/paint/Triangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/paint.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/src/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/src/Paint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/src/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Uni/Term 2/AP/New/WorkShop/Workshop 5/paint/src/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PentagonGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RotationBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SinglePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Othello/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Othello/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Othello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Othello/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Othello/out/production/Othello/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Othello/out/production/Othello/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Othello/out/production/Othello/OthelloGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Othello/out/production/Othello/OthelloGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Othello/src/MultiPlayerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Othello/src/MultiPlayerGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Othello/src/OthelloGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Othello/src/OthelloGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Othello/src/SinglePlayerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Othello/src/SinglePlayerGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pentago/src/PentagoGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pentago/src/PentagoGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SinglePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinglePlayer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,17 +25,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1294">
+            <state relative-caret-position="4215">
               <caret line="281" selection-start-line="281" selection-end-line="281" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MultiPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="580">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PentagonGame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
@@ -152,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RotationBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
+            <state relative-caret-position="1965">
               <caret line="131" selection-start-line="131" selection-end-line="131" />
             </state>
           </provider>
@@ -161,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SinglePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="1196">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,11 +86,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/SinglePlayer.java" />
-        <option value="$PROJECT_DIR$/src/MultiPlayer.java" />
         <option value="$PROJECT_DIR$/src/RotationBoard.java" />
         <option value="$PROJECT_DIR$/src/Board.java" />
         <option value="$PROJECT_DIR$/src/PentagonGame.java" />
+        <option value="$PROJECT_DIR$/src/SinglePlayer.java" />
+        <option value="$PROJECT_DIR$/src/MultiPlayer.java" />
       </list>
     </option>
   </component>
@@ -197,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -207,8 +114,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,17 +168,18 @@
       <workItem from="1586420753242" duration="1030000" />
       <workItem from="1586431841072" duration="73000" />
       <workItem from="1586436361064" duration="35000" />
+      <workItem from="1586437597316" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1138000" />
+    <option name="totallyTimeSpent" value="1166000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -316,36 +224,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MultiPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SinglePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1294">
+        <state relative-caret-position="4215">
           <caret line="281" selection-start-line="281" selection-end-line="281" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RotationBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
+        <state relative-caret-position="1965">
           <caret line="131" selection-start-line="131" selection-end-line="131" />
         </state>
       </provider>
@@ -357,6 +245,26 @@
           <folding>
             <element signature="e#2260#2261#0" expanded="true" />
             <element signature="e#2291#2292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SinglePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MultiPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
