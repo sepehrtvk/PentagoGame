@@ -1,16 +1,41 @@
-public class PentagonGame {
+/**
+ * Pentago is a two-player abstract strategy game invented by Tomas Flodén.
+ * The game is played on a 6×6 board divided into four 3×3 sub-boards.
+ * Taking turns, the two players place a marble of their color (either black or white) onto an unoccupied space on the board,
+ * and then rotate one of the sub-boards by 90 degrees either clockwise or anti-clockwise.
+ * This is optional in the beginning of the game, up until every sub-board no longer has rotational symmetry,
+ * at which point it becomes mandatory (this is because until then,
+ * a player could rotate an empty sub-board or one with just a marble in the middle,
+ * either of which has no real effect). A player wins by getting five of their marbles in a vertical,
+ * horizontal or diagonal row (either before or after the sub-board rotation in their move).
+ * If all 36 spaces on the board are occupied without a row of five being formed then the game is a draw.
+ *
+ * @author sepehr tavakoli
+ * @version 1.0
+ * @since 2020.04.01
+ */
+
+public class PentagoGame {
+    //main map of the game.
     protected String[][] map;
+    //first color.
     protected String nutColor;
+    //second color.
     protected String nutColor2;
+    //check end of the game.
     boolean endGame = false;
+    //show the winner.
     protected String winner1 = " ";
     protected String winner2 = " ";
 
+    //text colors.
     private static final String ANSI_RESET = "\u001B[0m";
     private static final String ANSI_BLUE = "\u001B[33m";
     private static final String ANSI_PURPLE = "\u001B[34m";
 
-
+    /**
+     * the constructor makes a set of game and fills the map with white nuts as empty blocks.
+     */
     public PentagoGame() {
         map = new String[6][6];
         for (int i = 0; i < 6; i++) {
@@ -20,6 +45,11 @@ public class PentagonGame {
         }
     }
 
+    /**
+     * set the nut color.(black or red)
+     *
+     * @param nutColor new nut color.
+     */
     public void setNutColor(String nutColor) {
         this.nutColor = nutColor;
         if (nutColor.equals("\u26ab")) nutColor2 = "\uD83D\uDD34";
@@ -27,10 +57,18 @@ public class PentagonGame {
 
     }
 
+    /**
+     * get the color of the nut.
+     *
+     * @return nut color.
+     */
     public String getNutColor() {
         return nutColor;
     }
 
+    /**
+     * this printMap method prints the board game in 4 different parts.
+     */
     public void printMap() {
 
         System.out.println(ANSI_PURPLE + " 1                                                     2" + ANSI_RESET);
@@ -51,6 +89,9 @@ public class PentagonGame {
         System.out.println();
     }
 
+    /**
+     * show the guide how the player can choose a cell in each board.
+     */
     public void showGuide() {
         System.out.println(ANSI_BLUE + "                          Guide" + ANSI_RESET);
         System.out.println(ANSI_BLUE + "                       \uD83D\uDD38 1 2 3 \uD83D\uDD38" + ANSI_RESET);
@@ -59,7 +100,9 @@ public class PentagonGame {
         System.out.println();
     }
 
-
+    /**
+     * if the game has finished , this method shows the winner or if we dont have a winner , the game is a draw.
+     */
     public void displayWinner() {
         System.out.println();
         if ((winner1.equals(" ") && winner2.equals(" ")) || (winner1.equals("\u26ab") && winner2.equals("\uD83D\uDD34️")) || (winner2.equals("\u26ab") && winner1.equals("\uD83D\uDD34️"))) {
@@ -78,6 +121,14 @@ public class PentagonGame {
             System.out.println("              \uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A");
         }
     }
+
+    /**
+     * the isEmpty method checks the that the given cell is empty or not.
+     *
+     * @param boardNumber number of the board.
+     * @param blockNumber number of the block.
+     * @return true if the block is empty.
+     */
     public boolean isEmpty(int boardNumber, int blockNumber) {
         switch (boardNumber) {
             case 1:

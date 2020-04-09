@@ -1,5 +1,20 @@
+/**
+ * the RotationBoard represents a rotation board that can rotate 90 degrees in arrows clock-wise or anti-clock-wise.
+ *
+ * @author sepehr tavakoli
+ * @version 1.0
+ * @since 2020.04.01
+ */
+
 public class RotationBoard extends Board {
+    /**
+     * this rotateClockWise method takes a board number and rotate it in arrow of clock-wise.
+     *
+     * @param boardNumber number of the board want to rotate.
+     */
     public void rotateClockWise(int boardNumber) {
+
+        //make a temp of current map.
         String[][] mapTemp = new String[6][6];
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 6; j++) {
@@ -48,9 +63,19 @@ public class RotationBoard extends Board {
                 map[5][5] = mapTemp[3][5];
                 break;
         }
+        //check if the game has finished.
         checkEndGame();
     }
+
+    /**
+     * this rotateAntiClockWise method takes a board number and rotate it in arrow of anti-clock-wise.
+     *
+     * @param boardNumber number of the board want to rotate.
+     */
+
     public void rotateAntiClockWise(int boardNumber) {
+
+        //make a temp of current map.
         String[][] mapTemp = new String[6][6];
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 6; j++) {
@@ -99,6 +124,7 @@ public class RotationBoard extends Board {
                 map[5][5] = mapTemp[5][3];
                 break;
         }
+        //check if the game has finished.
         checkEndGame();
     }
 

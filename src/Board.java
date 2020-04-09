@@ -1,4 +1,19 @@
-public class Board extends PentagonGame {
+/**
+ * the Board class represents a 6*6 board , that players put nut on its blocks.
+ *
+ * @author sepehr tavakoli
+ * @version 1.0
+ * @since 2020.04.01
+ */
+
+public class Board extends PentagoGame {
+    /**
+     * the addNut takes a board number and a block on it , then adds a nut with current color
+     * to the board.
+     *
+     * @param boardNumber number of the board.
+     * @param blockNumber number of the block.
+     */
     public void addNut(int boardNumber, int blockNumber) {
 
         switch (boardNumber) {
@@ -170,6 +185,11 @@ public class Board extends PentagonGame {
         checkEndGame();
     }
 
+    /**
+     * this checkInColumn method checks that if we have a set of 5 nuts with same color in a column , game has finished.
+     *
+     * @return true if the game has finished.
+     */
     public boolean checkInColumn() {
         String nutColorCheck;
         for (int k = 0; k < 2; k++) {
@@ -186,6 +206,12 @@ public class Board extends PentagonGame {
         }
         return false;
     }
+
+    /**
+     * this checkInAngle method checks that if we have a set of 5 nuts with same color in a angle , game has finished.
+     *
+     * @return true if the game has finished.
+     */
 
     public boolean checkInAngle() {
         String nutColorCheck;
@@ -212,6 +238,12 @@ public class Board extends PentagonGame {
         return false;
     }
 
+    /**
+     * this checkInRow method checks that if we have a set of 5 nuts with same color in a row , game has finished.
+     *
+     * @return true if the game has finished.
+     */
+
     public boolean checkInRow() {
         String nutColorCheck;
         for (int k = 0; k < 2; k++) {
@@ -229,7 +261,10 @@ public class Board extends PentagonGame {
         return false;
     }
 
-
+    /**
+     * the checkEndGame method checks if the board is full and no one won the game , game is a draw.
+     * also it checks if we have a set of 5 same color nuts in a row , column or angle , the game has finished.
+     */
     public void checkEndGame() {
         if (checkInAngle() || checkInColumn() || checkInRow()) {
             endGame = true;
@@ -242,4 +277,5 @@ public class Board extends PentagonGame {
         }
         if (count == 36) endGame = true;
     }
+
 }
