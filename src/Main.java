@@ -20,11 +20,11 @@ public class Main {
         switch (menuInput) {
             case 1:
                 SinglePlayer singlePlayer = new SinglePlayer();
-                //singlePlayer.startSinglePlayerGame();
+                singlePlayer.startSinglePlayerGame();
                 break;
             case 2:
                 MultiPlayer multiPlayer = new MultiPlayer();
-                //multiPlayer.startMultiPlayerGame();
+                multiPlayer.startMultiPlayerGame();
                 break;
         }
     }
