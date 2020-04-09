@@ -78,5 +78,136 @@ public class PentagonGame {
             System.out.println("              \uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A\uD83D\uDD3A");
         }
     }
+    public boolean isEmpty(int boardNumber, int blockNumber) {
+        switch (boardNumber) {
+            case 1:
+                switch (blockNumber) {
+                    case 1:
+                        if (map[0][0].equals("⚪")) return true;
+                        break;
+                    case 2:
+                        if (map[0][1].equals("⚪")) return true;
+                        break;
+                    case 3:
+                        if (map[0][2].equals("⚪")) return true;
+                        break;
+                    case 4:
+                        if (map[1][0].equals("⚪")) return true;
+                        break;
+                    case 5:
+                        if (map[1][1].equals("⚪")) return true;
+                        break;
+                    case 6:
+                        if (map[1][2].equals("⚪")) return true;
+                        break;
+                    case 7:
+                        if (map[2][0].equals("⚪")) return true;
+                        break;
+                    case 8:
+                        if (map[2][1].equals("⚪")) return true;
+                        break;
+                    case 9:
+                        if (map[2][2].equals("⚪")) return true;
+                        break;
+                }
+                break;
+            case 2:
+                switch (blockNumber) {
+                    case 1:
+                        if (map[0][3].equals("⚪")) return true;
+                        break;
+                    case 2:
+                        if (map[0][4].equals("⚪")) return true;
+                        break;
+                    case 3:
+                        if (map[0][5].equals("⚪")) return true;
+                        break;
+                    case 4:
+                        if (map[1][3].equals("⚪")) return true;
+                        break;
+                    case 5:
+                        if (map[1][4].equals("⚪")) return true;
+                        break;
+                    case 6:
+                        if (map[1][5].equals("⚪")) return true;
+                        break;
+                    case 7:
+                        if (map[2][3].equals("⚪")) return true;
+                        break;
+                    case 8:
+                        if (map[2][4].equals("⚪")) return true;
+                        break;
+                    case 9:
+                        if (map[2][5].equals("⚪")) return true;
+                        break;
+                }
+                break;
+            case 3:
+                switch (blockNumber) {
+                    case 1:
+                        if (map[3][0].equals("⚪")) return true;
+                        break;
+                    case 2:
+                        if (map[3][1].equals("⚪")) return true;
+                        break;
+                    case 3:
+                        if (map[3][2].equals("⚪")) return true;
+                        break;
+                    case 4:
+                        if (map[4][0].equals("⚪")) return true;
+                        break;
+                    case 5:
+                        if (map[4][1].equals("⚪")) return true;
+                        break;
+                    case 6:
+                        if (map[4][2].equals("⚪")) return true;
+                        break;
+                    case 7:
+                        if (map[5][0].equals("⚪")) return true;
+                        break;
+                    case 8:
+                        if (map[5][1].equals("⚪")) return true;
+                        break;
+                    case 9:
+                        if (map[5][2].equals("⚪")) return true;
+                        break;
+
+                }
+                break;
+            case 4:
+                switch (blockNumber) {
+                    case 1:
+                        if (map[3][3].equals("⚪")) return true;
+                        break;
+                    case 2:
+                        if (map[3][4].equals("⚪")) return true;
+                        break;
+                    case 3:
+                        if (map[3][5].equals("⚪")) return true;
+                        break;
+                    case 4:
+                        if (map[4][3].equals("⚪")) return true;
+                        break;
+                    case 5:
+                        if (map[4][4].equals("⚪")) return true;
+                        break;
+                    case 6:
+                        if (map[4][5].equals("⚪")) return true;
+                        break;
+                    case 7:
+                        if (map[5][3].equals("⚪")) return true;
+                        break;
+                    case 8:
+                        if (map[5][4].equals("⚪")) return true;
+                        break;
+                    case 9:
+                        if (map[5][5].equals("⚪")) return true;
+                        break;
+
+                }
+                break;
+        }
+        return false;
+    }
 
 }
